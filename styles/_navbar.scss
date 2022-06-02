@@ -1,0 +1,146 @@
+nav {
+    
+    .top-nav {
+        background-color: $backgroundColor;
+        @include flexCenter;
+        color: white;
+
+        a {
+            text-decoration: none;
+            font-family: "br firma";
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+            background-color: #40b96e;
+            border-radius: 5px;
+            padding: 4px 5px;
+            margin-right: 10px;
+        }
+
+
+        img {
+            width: 10%;
+        }
+    }
+
+    .bottom-nav {
+        font-family: "br firma";
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 10%;
+            color: $backgroundColor;
+            text-align: center;
+            margin-left: 30px;
+        }
+
+        #navbar {
+            font-family: "br firma";
+            width: 90%;
+            @include flexCenter;
+            justify-content: space-between;
+
+            ul {
+                position: relative;
+                
+                li:hover .dropdown-content {
+                    display: block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    width: 800px;
+                    z-index: 1;
+                    text-align: justify;
+                    
+                    #content {
+                        @include grid;
+                        
+                        .left {
+                            width: 500px;
+                        }
+
+                        .right {
+                            width: 300px;
+                            text-align: left;
+                        }
+
+                    }
+                    
+                    .dropdown-content li {
+                        display: block;
+                        text-decoration: none;
+                        border: 1px solid navy;
+                    }
+
+                    mark {
+                        background-color: rgb(147, 144, 144);
+                        color: #fff;
+                        padding: 5px 8px;
+                        font-size: 10px;
+                        border: none;
+                        border-radius: 3px;
+                    }
+                }
+            }
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+            }
+
+            li a {
+                display: flex;
+                text-decoration: none;
+                cursor: pointer;
+                padding: 10px;
+
+                &:hover {
+                    color: black;
+                }
+
+                svg {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    width: 50px;
+                }
+            }
+
+            img {
+                width: 20px;
+            }
+
+            .nav-buttons {
+                font-family: "br firma";
+                color: $backgroundColor;
+                margin-right: 30px;
+               
+                .log-in a {
+                    text-decoration: none;
+                    font-size: large;
+                    color: $backgroundColor;
+                    margin-right: 15px;
+                }
+                
+                button {
+                    font-family: "br firma";
+                    font-size: large;
+                    background-color: $backgroundColor;
+                    padding: 5px 20px;
+                    border-radius: 10px;
+                    border: none;
+                    box-shadow: 0 4px 6px 1px rgb(0 102 245 / 18%);
+                    
+                    a {
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        } 
+    }
+}
