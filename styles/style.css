@@ -155,21 +155,20 @@ nav .bottom-nav #navbar .nav-buttons button a {
   cursor: pointer;
 }
 #home-section .home-left img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 600px;
   height: 700px;
   z-index: 2;
   position: relative;
-  left: 50px;
   top: 50px;
 }
 #home-section .home-left .testimonial {
-  width: 300px;
+  width: 250px;
   position: relative;
   z-index: 3;
   background-color: #fff;
-  left: 300px;
+  left: 250px;
   bottom: 155px;
   padding: 30px;
   color: rgba(2, 43, 105, 0.6);
