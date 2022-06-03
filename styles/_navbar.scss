@@ -51,15 +51,16 @@ nav {
                 }
 
                 .dropdown-content {
+                    background-color: #fff;
                     display: none;
-                    position: absolute;
                     width: 800px;
-                    z-index: 1;
+                    position: absolute;
+                    z-index: 3;
                     text-align: justify;
                     
                     #content {
                         @include grid;
-                        
+
                         .left {
                             width: 500px;
                         }
@@ -94,6 +95,7 @@ nav {
             }
 
             li a {
+                color: rgba(2,43,105,.6);
                 display: flex;
                 text-decoration: none;
                 cursor: pointer;
@@ -125,20 +127,9 @@ nav {
                     color: $backgroundColor;
                     margin-right: 15px;
                 }
-                
+
                 button {
-                    font-family: "br firma";
-                    font-size: large;
-                    background-color: $backgroundColor;
-                    padding: 5px 20px;
-                    border-radius: 10px;
-                    border: none;
-                    box-shadow: 0 4px 6px 1px rgb(0 102 245 / 18%);
-                    
-                    a {
-                        color:white;
-                        text-decoration: none;
-                    }
+                    @include button;
                 }
             }
         } 

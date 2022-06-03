@@ -47,10 +47,11 @@ nav .bottom-nav #navbar ul li:hover .dropdown-content {
   display: block;
 }
 nav .bottom-nav #navbar ul .dropdown-content {
+  background-color: #fff;
   display: none;
-  position: absolute;
   width: 800px;
-  z-index: 1;
+  position: absolute;
+  z-index: 3;
   text-align: justify;
 }
 nav .bottom-nav #navbar ul .dropdown-content #content {
@@ -83,6 +84,7 @@ nav .bottom-nav #navbar li {
   display: inline-block;
 }
 nav .bottom-nav #navbar li a {
+  color: rgba(2, 43, 105, 0.6);
   display: flex;
   text-decoration: none;
   cursor: pointer;
@@ -114,14 +116,126 @@ nav .bottom-nav #navbar .nav-buttons button {
   font-family: "br firma";
   font-size: large;
   background-color: #0066f5;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
 }
 nav .bottom-nav #navbar .nav-buttons button a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+}
+
+#home-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 80px;
+  font-family: "br firma";
+  padding-top: 30px;
+}
+#home-section .home-left .testimonial-section {
+  background-color: rgb(255, 236, 219);
+  width: 30%;
+  height: 900px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+}
+#home-section .home-left .testimonial-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  top: -50px;
+  left: 50px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+#home-section .home-left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 600px;
+  height: 700px;
+  z-index: 2;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+#home-section .home-left .testimonial {
+  width: 300px;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+  left: 300px;
+  bottom: 155px;
+  padding: 30px;
+  color: rgba(2, 43, 105, 0.6);
+}
+#home-section .home-left .testimonial div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+#home-section .home-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+#home-section .home-right .text h1 {
+  font-size: 100px;
+  color: #022b69;
+  margin-bottom: 0;
+}
+#home-section .home-right .text p {
+  color: rgba(2, 43, 105, 0.6);
+  font-size: x-large;
+}
+#home-section .home-right .text form {
+  margin-top: 30px;
+}
+#home-section .home-right .text form input {
+  font-family: "br firma";
+  font-size: larger;
+  border: 1px solid rgba(2, 43, 105, 0.11);
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 300px;
+}
+#home-section .home-right .text form button {
+  font-family: "br firma";
+  font-size: large;
+  background-color: #0066f5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+  color: #fff;
+  margin-left: 10px;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+#home-section .home-right .text form button a {
+  color: #fff;
+  text-decoration: none;
+}
+#home-section .home-right .licence {
+  display: flex;
+  justify-content: flex-end;
+}
+#home-section .home-right .licence img {
+  width: 1.5%;
+  margin-right: 5px;
+}
+#home-section .home-right .licence p {
+  margin: 0;
+  margin-right: 30px;
+  font-size: 10px;
+  color: rgba(2, 43, 105, 0.6);
 }
 
 body {
@@ -136,4 +250,9 @@ body {
   src: url(fonts/BRFirma-Medium.ttf);
   font-style: normal;
   font-weight: normal;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

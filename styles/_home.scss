@@ -1,0 +1,117 @@
+#home-section {
+    @include grid;
+    grid-gap: 80px;
+    font-family: "br firma";
+    padding-top: 30px;
+
+    .home-left {
+
+        .testimonial-section {
+            background-color: rgb(255, 236, 219);
+            width: 30%;
+            height: 900px;
+            z-index: 1;
+            position: absolute;
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                object-fit: cover;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                top: -50px;
+                left: 50px;
+                padding-right: 30px;
+                cursor: pointer;
+            }
+        }
+
+        img {
+            object-fit: cover;
+            width: 600px;
+            height: 700px;
+            z-index: 2;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+
+        .testimonial {
+            width: 300px;
+            position: relative;
+            z-index: 3;
+            background-color: #fff;
+            left: 300px;
+            bottom: 155px;
+            padding: 30px;
+            color: rgba(2,43,105,.6);
+
+            div {
+                @include flexCenter;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .home-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 20px;
+
+        .text {
+
+            h1 {
+                font-size: 100px;
+                color: #022b69;
+                margin-bottom: 0;
+            }
+
+            p {
+                color: $textColor;
+                font-size: x-large;
+            }
+
+            form {
+                margin-top: 30px;
+
+                input {
+                    font-family: "br firma";
+                    font-size: larger;
+                    border: 1px solid rgba(2,43,105,.11);
+                    border-radius: 10px;
+                    padding: 20px 20px;
+                    width: 300px;
+                }
+                
+                button {
+                    @include button;
+                    color: #fff;
+                    margin-left: 10px;
+                    padding: 15px 20px;
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        .licence {
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                width: 1.5%;
+                margin-right: 5px;
+            }
+
+            p {
+                margin: 0;
+                margin-right: 30px;
+                font-size: 10px;
+                color: rgba(2,43,105,.6);
+            }
+        }
+        
+    }
+}

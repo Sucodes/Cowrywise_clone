@@ -1,4 +1,5 @@
 $backgroundColor: #0066f5;
+$textColor: rgba(2,43,105,.6);
 
 @mixin flexCenter {
     display: flex;
@@ -10,4 +11,19 @@ $backgroundColor: #0066f5;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
+}
+
+@mixin button {
+    font-family: "br firma";
+    font-size: large;
+    background-color: $backgroundColor;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px 1px rgb(0 102 245 / 18%);
+        
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
