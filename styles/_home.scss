@@ -28,8 +28,8 @@
         }
 
         img {
-            object-fit: contain;
-            width: 500px;
+            object-fit: cover;
+            width: 600px;
             height: 700px;
             z-index: 2;
             position: relative;
@@ -38,11 +38,11 @@
         }
 
         .testimonial {
-            width: 250px;
+            width: 300px;
             position: relative;
             z-index: 3;
             background-color: #fff;
-            left: 250px;
+            left: 300px;
             bottom: 155px;
             padding: 30px;
             color: rgba(2,43,105,.6);
