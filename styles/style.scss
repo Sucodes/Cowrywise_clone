@@ -1,6 +1,7 @@
 @import "_variable.scss";
 @import "_navbar.scss";
-@import "_home.scss";
+@import "_header.scss";
+@import "_section2.scss";
 
 body {
     margin: 0;
@@ -21,4 +22,3 @@ header {
     width: 100%;
     box-sizing: border-box;
 }
-

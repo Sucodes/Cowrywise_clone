@@ -1,3 +1,23 @@
+#section2 .right .stocks .img-div, #section2 .right .emergency-fund .img-div, #section2 .right .circles .img-div, #section2 .left .stash .img-div, #section2 .left .mutual-funds .img-div {
+  cursor: pointer;
+}
+#section2 .right .stocks .img-div .img-1, #section2 .right .emergency-fund .img-div .img-1, #section2 .right .circles .img-div .img-1, #section2 .left .stash .img-div .img-1, #section2 .left .mutual-funds .img-div .img-1 {
+  display: block;
+}
+#section2 .right .stocks .img-div .img-2, #section2 .right .emergency-fund .img-div .img-2, #section2 .right .circles .img-div .img-2, #section2 .left .stash .img-div .img-2, #section2 .left .mutual-funds .img-div .img-2 {
+  display: none;
+}
+#section2 .right .stocks .img-div:hover .img-2, #section2 .right .emergency-fund .img-div:hover .img-2, #section2 .right .circles .img-div:hover .img-2, #section2 .left .stash .img-div:hover .img-2, #section2 .left .mutual-funds .img-div:hover .img-2 {
+  display: flex;
+  justify-content: center;
+}
+#section2 .right .stocks .img-div:hover .img-2 img, #section2 .right .emergency-fund .img-div:hover .img-2 img, #section2 .right .circles .img-div:hover .img-2 img, #section2 .left .stash .img-div:hover .img-2 img, #section2 .left .mutual-funds .img-div:hover .img-2 img {
+  width: 350px;
+}
+#section2 .right .stocks .img-div:hover .img-1, #section2 .right .emergency-fund .img-div:hover .img-1, #section2 .right .circles .img-div:hover .img-1, #section2 .left .stash .img-div:hover .img-1, #section2 .left .mutual-funds .img-div:hover .img-1 {
+  display: none;
+}
+
 nav .top-nav {
   background-color: #0066f5;
   display: flex;
@@ -91,7 +111,7 @@ nav .bottom-nav #navbar li a {
   padding: 10px;
 }
 nav .bottom-nav #navbar li a:hover {
-  color: black;
+  color: blue;
 }
 nav .bottom-nav #navbar li a svg {
   margin-left: 20px;
@@ -155,20 +175,21 @@ nav .bottom-nav #navbar .nav-buttons button a {
   cursor: pointer;
 }
 #home-section .home-left img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 600px;
   height: 700px;
   z-index: 2;
   position: relative;
   top: 50px;
+  left: 50px;
 }
 #home-section .home-left .testimonial {
-  width: 250px;
+  width: 300px;
   position: relative;
   z-index: 3;
   background-color: #fff;
-  left: 250px;
+  left: 300px;
   bottom: 155px;
   padding: 30px;
   color: rgba(2, 43, 105, 0.6);
@@ -235,6 +256,253 @@ nav .bottom-nav #navbar .nav-buttons button a {
   margin-right: 30px;
   font-size: 10px;
   color: rgba(2, 43, 105, 0.6);
+}
+
+#section2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 80px;
+  margin-top: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#section2 .left .text {
+  margin-bottom: 80px;
+}
+#section2 .left .text h2 {
+  color: #022b69;
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+#section2 .left .text p {
+  font-size: 1.4rem;
+  color: rgba(2, 43, 105, 0.6);
+}
+#section2 .left .savings {
+  border: none;
+  border-radius: 30px;
+  background-color: #f4f6ff;
+  margin-bottom: 80px;
+}
+#section2 .left .savings .text {
+  padding: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#section2 .left .savings .text h6 {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: rgba(2, 43, 105, 0.6);
+  margin-bottom: 20px;
+}
+#section2 .left .savings .text h4 {
+  color: #022b69;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section2 .left .savings .text p {
+  margin-bottom: 30px;
+  color: rgba(2, 43, 105, 0.6);
+  font-size: 1.2rem;
+}
+#section2 .left .savings .text a {
+  text-decoration: none;
+  color: blue;
+}
+#section2 .left .savings .text a img {
+  width: 15px;
+}
+#section2 .left .savings .img-div {
+  cursor: pointer;
+}
+#section2 .left .savings .img-div .img-1 {
+  display: block;
+}
+#section2 .left .savings .img-div .img-1 img {
+  width: 100%;
+}
+#section2 .left .savings .img-div .img-2 {
+  display: none;
+}
+#section2 .left .savings:hover .img-2 {
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+#section2 .left .savings:hover .img-2 img {
+  width: 350px;
+}
+#section2 .left .savings:hover .img-1 {
+  display: none;
+}
+#section2 .left .mutual-funds {
+  border: none;
+  border-radius: 30px;
+  background-color: #e1f6ff;
+  margin-bottom: 80px;
+}
+#section2 .left .mutual-funds .text {
+  padding: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#section2 .left .mutual-funds .text h6 {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: rgba(2, 43, 105, 0.6);
+  margin-bottom: 20px;
+}
+#section2 .left .mutual-funds .text h4 {
+  color: #022b69;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section2 .left .mutual-funds .text p {
+  margin-bottom: 30px;
+  color: rgba(2, 43, 105, 0.6);
+  font-size: 1.2rem;
+}
+#section2 .left .mutual-funds .text a {
+  text-decoration: none;
+  color: blue;
+}
+#section2 .left .mutual-funds .text a img {
+  width: 15px;
+}
+#section2 .left .stash {
+  border: none;
+  border-radius: 30px;
+  background-color: #0066f5;
+  margin-bottom: 80px;
+}
+#section2 .left .stash .text {
+  color: #fff;
+  padding: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#section2 .left .stash .text h6 {
+  margin: 0px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+#section2 .left .stash .text h4 {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section2 .left .stash .text p {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+#section2 .left .stash .text a {
+  text-decoration: none;
+  color: #fff;
+}
+#section2 .left .stash .text a img {
+  width: 15px;
+}
+#section2 .right .circles {
+  border: none;
+  border-radius: 30px;
+  background-color: #fff6ee;
+  margin-bottom: 80px;
+}
+#section2 .right .circles .text {
+  padding: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#section2 .right .circles .text h6 {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: rgba(2, 43, 105, 0.6);
+  margin-bottom: 20px;
+}
+#section2 .right .circles .text h4 {
+  color: #022b69;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section2 .right .circles .text p {
+  margin-bottom: 30px;
+  color: rgba(2, 43, 105, 0.6);
+  font-size: 1.2rem;
+}
+#section2 .right .circles .text a {
+  text-decoration: none;
+  color: blue;
+}
+#section2 .right .circles .text a img {
+  width: 15px;
+}
+#section2 .right .emergency-fund {
+  border: none;
+  border-radius: 30px;
+  background-color: #fdf3f6;
+  margin-bottom: 80px;
+}
+#section2 .right .emergency-fund .text {
+  padding: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#section2 .right .emergency-fund .text h6 {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: rgba(2, 43, 105, 0.6);
+  margin-bottom: 20px;
+}
+#section2 .right .emergency-fund .text h4 {
+  color: #022b69;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section2 .right .emergency-fund .text p {
+  margin-bottom: 30px;
+  color: rgba(2, 43, 105, 0.6);
+  font-size: 1.2rem;
+}
+#section2 .right .emergency-fund .text a {
+  text-decoration: none;
+  color: blue;
+}
+#section2 .right .emergency-fund .text a img {
+  width: 15px;
+}
+#section2 .right .stocks {
+  border: none;
+  border-radius: 30px;
+  background-color: #f5f6fa;
+}
+#section2 .right .stocks .text {
+  padding: 48px;
+  padding-bottom: 0px;
+}
+#section2 .right .stocks .text h6 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: rgba(2, 43, 105, 0.6);
+}
+#section2 .right .stocks .text h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #022b69;
+  font-size: 2.5rem;
+}
+#section2 .right .stocks .text a {
+  text-decoration: none;
+  color: blue;
+}
+#section2 .right .stocks .text a img {
+  width: 15px;
 }
 
 body {
