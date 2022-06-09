@@ -1,80 +1,32 @@
 #home-section {
-    @include grid;
-    grid-gap: 80px;
-    font-family: "br firma";
-    padding-top: 30px;
-
-    .home-left {
-
-        .testimonial-section {
-            background-color: rgb(255, 236, 219);
-            width: 30%;
-            height: 900px;
-            z-index: 1;
-            position: absolute;
-            display: flex;
-            align-items: flex-end;
-
-            img {
-                object-fit: cover;
-                width: 50px;
-                height: 50px;
-                display: flex;
-                top: -50px;
-                left: 50px;
-                padding-right: 30px;
-                cursor: pointer;
-            }
-        }
-
-        img {
-            object-fit: cover;
-            width: 600px;
-            height: 700px;
-            z-index: 2;
-            position: relative;
-            top: 50px;
-            left: 50px;
-        }
-
-        .testimonial {
-            width: 300px;
-            position: relative;
-            z-index: 3;
-            background-color: #fff;
-            left: 300px;
-            bottom: 155px;
-            padding: 30px;
-            color: rgba(2,43,105,.6);
-
-            div {
-                @include flexCenter;
-                justify-content: space-between;
-            }
-        }
-    }
+    width: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
 
     .home-right {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-right: 20px;
-
+        grid-row: 1 / 2;
+    
         .text {
-
             h1 {
-                font-size: 100px;
+                font-size: 3rem;
+                line-height: 1.1;
+                letter-spacing: -4px;
                 color: #022b69;
-                margin-bottom: 0;
+                margin-bottom: 20px;
+                font-weight: 600;
             }
-
+    
             p {
                 color: $textColor;
-                font-size: x-large;
+                font-size: 20px;
             }
-
+    
             form {
                 margin-top: 30px;
+                margin-bottom: 30px;
 
                 input {
                     font-family: "br firma";
@@ -84,7 +36,7 @@
                     padding: 20px 20px;
                     width: 300px;
                 }
-                
+                    
                 button {
                     @include button;
                     color: #fff;
@@ -96,19 +48,58 @@
         }
 
         .licence {
+            display: none;
+        }
+    }
+
+    .home-left {
+        grid-row: 2 / 3;
+
+        .testimonial-section {
+            background-color: rgb(255, 236, 219);
+            width: 50%;
+            height: 900px;
+            z-index: 1;
+            position: absolute;
             display: flex;
-            justify-content: flex-end;
+            align-items: flex-end;
 
             img {
-                width: 1.5%;
-                margin-right: 5px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                top: -50px;
+                left: 20px;
+                margin-left: 30px;
+                cursor: pointer;
+                display: none;
             }
-
-            p {
-                margin: 0;
-                margin-right: 30px;
-                font-size: 10px;
-                color: rgba(2,43,105,.6);
+        }
+    
+        img {
+            object-fit: cover;
+            width: 600px;
+            height: 700px;
+            z-index: 2;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+    
+        .testimonial {
+            width: 300px;
+            position: relative;
+            z-index: 3;
+            background-color: #fff;
+            right: -10px;
+            top: -350px;
+            padding: 15px;
+            color: rgba(2,43,105,.6);
+    
+            div {
+                padding-right: 20px;
+                @include flexCenter;
+                justify-content: space-between;
             }
         }
     }
