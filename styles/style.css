@@ -18,6 +18,9 @@
   display: none;
 }
 
+nav {
+  font-family: "br firma";
+}
 nav .top-nav {
   background-color: #0066f5;
   display: flex;
@@ -140,7 +143,7 @@ nav .bottom-nav #navbar .nav-buttons button {
   font-family: "br firma";
   font-size: large;
   background-color: #0066f5;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
@@ -171,6 +174,7 @@ nav .bottom-nav .menu-icon div {
   font-family: "br firma";
 }
 #home-section .home-right {
+  font-family: "br firma";
   grid-row: 1/2;
 }
 #home-section .home-right .text h1 {
@@ -201,7 +205,7 @@ nav .bottom-nav .menu-icon div {
   font-family: "br firma";
   font-size: large;
   background-color: #0066f5;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
@@ -268,6 +272,7 @@ nav .bottom-nav .menu-icon div {
 }
 
 #section2 {
+  font-family: "br firma";
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
@@ -518,6 +523,133 @@ nav .bottom-nav .menu-icon div {
   width: 15px;
 }
 
+.section3 {
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: #f5f6fa;
+  font-family: "br firma";
+}
+.section3 .phone-img {
+  padding: 20px 0;
+  display: none;
+}
+.section3 .phone-img img {
+  width: 400px;
+  height: auto;
+}
+.section3 .roadmap {
+  height: auto;
+  padding-right: 20px;
+}
+.section3 .roadmap div > h3 {
+  text-align: left;
+  color: #022b69;
+  font-size: 2.5rem;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.section3 .roadmap .step {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .roadmap .step .num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 20%;
+  color: blue;
+  font-size: 1.3rem;
+}
+.section3 .roadmap .step .step1 {
+  text-align: justify;
+  width: 80%;
+}
+.section3 .roadmap .step .step1 h4 {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #022b69;
+}
+.section3 .roadmap .step .step1 p {
+  color: rgba(2, 43, 105, 0.6);
+}
+.section3 .roadmap .step .step2 {
+  text-align: justify;
+  width: 80%;
+}
+.section3 .roadmap .step .step2 h4 {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #022b69;
+}
+.section3 .roadmap .step .step2 p {
+  color: rgba(2, 43, 105, 0.6);
+}
+.section3 .roadmap .step .step3 {
+  text-align: justify;
+  width: 80%;
+}
+.section3 .roadmap .step .step3 h4 {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #022b69;
+}
+.section3 .roadmap .step .step3 p {
+  color: rgba(2, 43, 105, 0.6);
+}
+.section3 .roadmap .btn {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.section3 .roadmap .btn button {
+  font-family: "br firma";
+  font-size: large;
+  background-color: #0066f5;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+}
+.section3 .roadmap .btn button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .section3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "br firma";
+  }
+  .section3 .phone-img {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section3 .roadmap div > h3 {
+    text-align: left;
+    color: #022b69;
+    font-size: 2.5rem;
+    margin-left: 130px;
+    margin-bottom: 20px;
+  }
+  .section3 .btn {
+    width: 100%;
+  }
+  .section3 .btn button {
+    margin-left: 100px;
+    float: left;
+  }
+}
 @media (min-width: 800px) {
   nav .bottom-nav .logo {
     padding-top: 0px;
@@ -640,7 +772,7 @@ nav .bottom-nav .menu-icon div {
     font-family: "br firma";
     font-size: large;
     background-color: #0066f5;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);

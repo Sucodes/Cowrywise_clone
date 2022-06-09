@@ -1,0 +1,133 @@
+.section3 {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #f5f6fa;
+    font-family: "br firma";
+
+    .phone-img {
+        padding: 20px 0;
+        display: none;
+        
+        img {
+            width: 400px;
+            height: auto;
+        }
+    }
+
+    .roadmap {
+        height: auto;
+        padding-right: 20px;
+
+        div > h3 {
+            text-align: left;
+            color: $headingColor;
+            font-size: 2.5rem;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+
+        .step {
+            margin-bottom: 10px;
+            @include flexCenter;
+                
+            .num {
+                @include flexCenter;
+                margin-bottom: 30px;
+                width: 20%;
+                color: blue;
+                font-size: 1.3rem;
+            }
+
+            .step1 {
+                text-align: justify;
+                width: 80%;
+
+                h4 {
+                    margin-bottom: 0px;
+                    font-size: 2rem;
+                    color: $headingColor;
+                }
+
+                p {
+                    color: $textColor;
+                }
+            }
+
+            .step2 {
+                text-align: justify;
+                width: 80%;
+
+                h4 {
+                    margin-bottom: 0px;
+                    font-size: 2rem;
+                    color: $headingColor;
+                }
+
+                p {
+                    color: $textColor;
+                }
+            }
+
+            .step3 {
+                text-align: justify;
+                width: 80%;
+
+                h4 {
+                    margin-bottom: 0px;
+                    font-size: 2rem;
+                    color: $headingColor;
+                }
+
+                p {
+                    color: $textColor;
+                }
+            }
+        }
+
+        .btn {
+            margin-top: 20px;
+            margin-left: 50px;
+
+            button {
+                @include button;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 800px) {
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: "br firma";
+
+        .phone-img {
+            display: block;
+            @include flexCenter;
+        }
+
+        .roadmap {
+            @include flexCenter;
+            flex-direction: column;
+
+            div > h3 {
+                text-align: left;
+                color: $headingColor;
+                font-size: 2.5rem;
+                margin-left: 130px;
+                margin-bottom: 20px;
+            }
+            
+        }
+
+        .btn {
+            width: 100%;
+
+            button {
+                margin-left: 100px;
+                float: left;
+            }
+        }
+    }
+}
