@@ -79,7 +79,7 @@
         .stash {
             border: none;
             border-radius: 30px;
-            background-color: #0066f5;
+            background-color: $backgroundColor;
             margin-bottom: 80px;
             @extend %hoverEffect;
 

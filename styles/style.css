@@ -525,7 +525,7 @@ nav .bottom-nav .menu-icon div {
 
 .section3 {
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   background-color: #f5f6fa;
   font-family: "br firma";
 }
@@ -648,6 +648,129 @@ nav .bottom-nav .menu-icon div {
   .section3 .btn button {
     margin-left: 100px;
     float: left;
+  }
+}
+.section4 {
+  background-color: #0066f5;
+  color: #fff;
+  width: 100%;
+  font-family: "br firma";
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.section4 .protection h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+}
+.section4 .protection p {
+  font-size: 20px;
+}
+.section4 .protection a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.section4 .protection a img {
+  margin-left: 5px;
+  width: 10px;
+}
+.section4 .checklist .safety {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.section4 .checklist .safety .checkbox {
+  width: 50px;
+  height: 15px;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  border-radius: 2px;
+  box-shadow: 5px 5px rgb(72, 72, 77);
+}
+.section4 .checklist .safety div h6 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.section4 .checklist .safety div p {
+  line-height: 1.5;
+  color: hsla(0deg, 0%, 100%, 0.8);
+  font-size: 18px;
+}
+.section4 .security-img {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .section4 {
+    font-family: "br firma";
+    overflow: hidden;
+    padding-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+  }
+  .section4 div {
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .section4 div .protection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 200px;
+  }
+  .section4 div .protection h5 {
+    font-size: 2rem;
+  }
+  .section4 div .protection p {
+    font-size: 1rem;
+  }
+  .section4 .checklist {
+    width: 60%;
+    z-index: 2;
+  }
+  .section4 .checklist .safety {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .section4 .checklist .safety .checkbox {
+    width: 20px;
+  }
+  .section4 .checklist .safety div {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section4 .checklist .safety div h6 {
+    margin-top: 25px;
+    font-size: 1.7rem;
+  }
+  .section4 .checklist .safety div p {
+    font-size: 1rem;
+  }
+  .section4 .security-img {
+    display: block;
+    position: relative;
+    width: 80%;
+    z-index: 1;
+    right: -700px;
+    bottom: 700px;
+    opacity: 0.5;
   }
 }
 @media (min-width: 800px) {
