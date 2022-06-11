@@ -338,14 +338,17 @@
     .section6 {
 
         .download {
-
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 40px;
+            
             .review-stars {
-                width: 100%;
+                width: 80%;
 
                 .left {
                     @include flexCenter;
                     justify-content: space-around;
-                  
                 }
             }
         }

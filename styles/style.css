@@ -43,6 +43,7 @@ nav .top-nav img {
   width: 10%;
 }
 nav .bottom-nav {
+  background-color: #fff;
   font-family: "br firma";
   font-size: large;
   display: flex;
@@ -246,7 +247,7 @@ nav .bottom-nav .menu-icon div {
 #home-section .home-left img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  width: 95%;
   height: 500px;
   z-index: 2;
   position: relative;
@@ -869,9 +870,9 @@ nav .bottom-nav .menu-icon div {
 }
 .section6 .download {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 40px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
   margin-bottom: 20px;
 }
 .section6 .download .play-store {
@@ -885,6 +886,7 @@ nav .bottom-nav .menu-icon div {
   flex-direction: column;
 }
 .section6 .download .play-store .review-stars {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1160,6 +1162,33 @@ nav .bottom-nav .menu-icon div {
   color: blue;
 }
 
+.chatbox {
+  width: 10%;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.chatbox svg {
+  width: 100%;
+  fill: #fff;
+}
+
+@media (min-width: 570px) {
+  .chatbox {
+    width: 5%;
+  }
+  .chatbox svg {
+    width: 100%;
+  }
+}
 @media (min-width: 800px) {
   nav .bottom-nav .logo {
     padding-top: 0px;
@@ -1557,8 +1586,14 @@ nav .bottom-nav .menu-icon div {
     width: 15px;
   }
 
+  .section6 .download {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+  }
   .section6 .download .review-stars {
-    width: 100%;
+    width: 80%;
   }
   .section6 .download .review-stars .left {
     display: flex;
