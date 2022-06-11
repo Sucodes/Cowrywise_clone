@@ -117,7 +117,7 @@
     
                 p {
                     color: $textColor;
-                    font-size: x-large;
+                    font-size: 1.6rem;
                 }
     
                 form {
@@ -332,6 +332,58 @@
                     }
                 }
             }
+        }
+    }
+
+    .section6 {
+
+        .download {
+
+            .review-stars {
+                width: 100%;
+
+                .left {
+                    @include flexCenter;
+                    justify-content: space-around;
+                  
+                }
+            }
+        }
+
+        .sign-up {
+            @include flexCenter;
+            flex-direction: row;
+
+            .text {
+                width: 50%;
+                @include flexCenter;
+            }
+
+            div {
+                width: 50%;
+
+                form {
+                    @include flexCenter;
+                    align-items: flex-start;
+
+                    input {
+                        width: 300px;
+                        position: absolute;
+                    }
+
+                    button {
+                        right: -200px;
+                        bottom: 10px;
+                        position: relative;
+                    }
+                }
+            }
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 }

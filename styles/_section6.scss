@@ -1,0 +1,344 @@
+.section6 {
+    width: 100%;
+    font-family: "br firma";
+    padding: 0px 20px;
+    margin-bottom: 50px;
+
+    .download {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 40px;
+        margin-bottom: 20px;
+
+        .play-store {
+            border: 1px solid rgba(2,43,105,.07);
+            border-radius: 10px;
+            box-shadow: 1px 12px 24px rgb(2 43 105 / 5%);
+            padding: 30px;
+            @include flexCenter;
+            flex-direction: column;
+
+            .review-stars {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                
+                .left {
+                    margin-right: 20px;
+
+                    p {
+                        margin: 0px;
+                        font-size: 2.3rem;
+
+                        sub {
+                            color: $textColor;
+                        }
+                    }
+
+                   img {
+                        width: 150px;
+                        height: 30px;
+                    } 
+                }
+
+                button {
+                    background-color: $headingColor;
+                    padding: 10px 10px;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 10px;
+                    display: flex;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 0px;
+                    }
+
+                    svg {
+                        margin-right: 10px;
+                        fill: #fff;
+                        width: 20px;
+                    }
+                }  
+            }
+
+            .review {
+
+                h6 {
+                    margin-top: 20px;
+                    font-size: 1.5rem;
+                    margin-bottom: 0px;
+                }
+                
+                p {
+                    color: $textColor;
+
+                }
+
+                a {
+                    color: blue;
+                    text-decoration: none;
+                    font-size: 0.7rem;
+
+                    img {
+                        width: 10px;
+                    }
+                }    
+            }
+        }
+
+        .apple-store {
+            border: 1px solid rgba(2,43,105,.07);
+            border-radius: 10px;
+            box-shadow: 1px 12px 24px rgb(2 43 105 / 5%);
+            padding: 30px;
+            @include flexCenter;
+            flex-direction: column;
+
+            .review-stars {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                
+                .left {
+                    margin-right: 20px;
+
+                    p {
+                        margin: 0px;
+                        font-size: 2.3rem;
+
+                        sub {
+                            color: $textColor;
+                        }
+                    }
+
+                   img {
+                        width: 150px;
+                        height: 30px;
+                    } 
+                }
+
+                button {
+                    background-color: $headingColor;
+                    padding: 10px 10px;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 10px;
+                    display: flex;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 0px;
+                    }
+                    
+                    svg {
+                        margin-right: 10px;
+                        fill: #fff;
+                        width: 20px;
+                    }
+                }  
+            }
+
+            .review {
+
+                h6 {
+                    margin-top: 20px;
+                    font-size: 1.5rem;
+                    margin-bottom: 0px;
+                }
+                
+                p {
+                    color: $textColor;
+
+                }
+
+                a {
+                    color: blue;
+                    text-decoration: none;
+                    font-size: 0.7rem;
+
+                    img {
+                        width: 10px;
+                    }
+                }    
+            }
+        }
+    }
+
+    .sign-up {
+        font-family: "br firma";
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: $backgroundColor;
+        color: #fff;
+        @include flexCenter;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        margin: 100px 0;
+        height: 300px;
+        width: auto;
+
+        .text {
+            width: 100%;
+            padding: 10px;
+
+            h3 {
+                margin: 0px;
+                font-size: 2rem;
+            }
+        }
+
+        div {
+            width: 100%;
+            form {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    width: 100%;
+                    color: transparent;
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: 2px 2px 5px rgb(170, 165, 165);
+                    padding: 15px 10px;
+                    opacity: 0.5;
+
+                    ::placeholder {
+                        font-family: "br firma";
+                        color: #fff;
+                    }
+                }
+
+                button {
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #fff;
+                    padding: 15px 0;
+                    margin-top: 20px;
+                    width: 150px;
+
+                    a {
+                        text-decoration: none;
+                        color: $headingColor;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .links {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: left;
+
+        .grid {
+
+            h6 {
+                margin-left: 40px;
+                font-size: 1rem;
+            }
+
+            ul, li {
+                list-style-type: none;
+                line-height: 2;
+
+                a {
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    color: $textColor;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .icons {
+        margin: 20px 0px;
+        @include flexCenter;
+        flex-direction: row;
+        justify-content: left;
+
+        ul, li {
+            padding-right: 30px;
+            display: flex;
+            list-style-type: none;
+
+            svg {
+                fill: $textColor;
+                width: 20px;
+            }
+        }
+    }
+
+    .address {
+        @include flexCenter;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        div {
+            p {
+                color: $headingColor;
+                font-size: 1rem;
+            }
+        }
+
+        .SEC {
+            width: 200px;
+            padding: 10px 0px;
+            @include flexCenter;
+            border: 1px solid rgba(2,43,105,.07);
+            border-radius: 10px;
+            box-shadow: 1px 12px 24px rgb(2 43 105 / 5%);   
+
+            img {
+                margin-right: 20px;
+                width: 20%;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                h6 {
+                    margin: 0px;
+                    color: $headingColor;
+                }
+
+                p {
+                    font-size: 12px;
+                    margin: 0px;
+                    margin-top: 5px;
+                    color: $textColor;
+                }
+            }
+        }
+    }
+
+
+    .footer {
+        font-size: 0.8rem;
+        line-height: 1.7;
+        color: rgba(2,43,105,.48);
+        
+        a {
+            text-decoration: none;
+
+            span {
+                color: blue;
+            }
+        }
+    }
+}
