@@ -18,6 +18,7 @@
   display: none;
 }
 
+/* Navigation bar styling begins here */
 nav {
   font-family: "br firma";
 }
@@ -165,6 +166,8 @@ nav .bottom-nav .menu-icon div {
   margin: 6px 0;
 }
 
+/* Navigation styling ends here*/
+/* Header styling (excluding the navigation section) begins here */
 #home-section {
   width: 100%;
   height: 100vh;
@@ -272,6 +275,8 @@ nav .bottom-nav .menu-icon div {
   justify-content: space-between;
 }
 
+/* Header styling ends */
+/* Section 2 styling begins here */
 #section2 {
   font-family: "br firma";
   display: grid;
@@ -524,6 +529,8 @@ nav .bottom-nav .menu-icon div {
   width: 15px;
 }
 
+/* Section 2 styling ends */
+/* Section 3 styling begins here */
 .section3 {
   width: 100%;
   padding-bottom: 100px;
@@ -618,39 +625,8 @@ nav .bottom-nav .menu-icon div {
   text-decoration: none;
 }
 
-@media (min-width: 800px) {
-  .section3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: "br firma";
-  }
-  .section3 .phone-img {
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .section3 .roadmap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section3 .roadmap div > h3 {
-    text-align: left;
-    color: #022b69;
-    font-size: 2.5rem;
-    margin-left: 130px;
-    margin-bottom: 20px;
-  }
-  .section3 .btn {
-    width: 100%;
-  }
-  .section3 .btn button {
-    margin-left: 100px;
-    float: left;
-  }
-}
+/* Section 3 styling ends */
+/* Section 4 styling begins here */
 .section4 {
   background-color: #0066f5;
   color: #fff;
@@ -707,73 +683,8 @@ nav .bottom-nav .menu-icon div {
   display: none;
 }
 
-@media (min-width: 1024px) {
-  .section4 {
-    font-family: "br firma";
-    overflow: hidden;
-    padding-top: 0px;
-    width: 100%;
-    height: 100vh;
-  }
-  .section4 div {
-    height: 40%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-  }
-  .section4 div .protection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-right: 200px;
-  }
-  .section4 div .protection h5 {
-    font-size: 2rem;
-  }
-  .section4 div .protection p {
-    font-size: 1rem;
-  }
-  .section4 .checklist {
-    padding-top: 10px;
-    width: 60%;
-    z-index: 2;
-  }
-  .section4 .checklist .safety {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-  .section4 .checklist .safety .checkbox {
-    width: 20px;
-  }
-  .section4 .checklist .safety div {
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section4 .checklist .safety div h6 {
-    margin-top: 25px;
-    font-size: 1.7rem;
-  }
-  .section4 .checklist .safety div p {
-    font-size: 1rem;
-  }
-  .section4 .security-img {
-    display: block;
-    position: relative;
-    width: 80%;
-    z-index: 1;
-    right: -600px;
-    bottom: 600px;
-    opacity: 0.5;
-  }
-}
+/* Section 4 styling ends */
+/* Section 5 styling begins here */
 .section5 {
   font-family: "br firma";
   width: auto;
@@ -862,6 +773,8 @@ nav .bottom-nav .menu-icon div {
   }
 }
 
+/* Section 5 styling ends */
+/* Section 6 styling begins here */
 .section6 {
   width: 100%;
   font-family: "br firma";
@@ -1162,6 +1075,8 @@ nav .bottom-nav .menu-icon div {
   color: blue;
 }
 
+/* Section 6 styling ends  */
+/* ChatBox styling begins here */
 .chatbox {
   width: 10%;
   background-color: blue;
@@ -1181,6 +1096,8 @@ nav .bottom-nav .menu-icon div {
   fill: #fff;
 }
 
+/* ChatBox styling ends */
+/* Breakpoint styling begins here */
 @media (min-width: 570px) {
   .chatbox {
     width: 5%;
@@ -1586,6 +1503,38 @@ nav .bottom-nav .menu-icon div {
     width: 15px;
   }
 
+  .section3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "br firma";
+  }
+  .section3 .phone-img {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section3 .roadmap div > h3 {
+    text-align: left;
+    color: #022b69;
+    font-size: 2.5rem;
+    margin-left: 130px;
+    margin-bottom: 20px;
+  }
+  .section3 .btn {
+    width: 100%;
+  }
+  .section3 .btn button {
+    margin-left: 100px;
+    float: left;
+  }
+
   .section6 .download {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1637,6 +1586,74 @@ nav .bottom-nav .menu-icon div {
     justify-content: space-between;
   }
 }
+@media (min-width: 1024px) {
+  .section4 {
+    font-family: "br firma";
+    overflow: hidden;
+    padding-top: 0px;
+    width: 100%;
+    height: 100vh;
+  }
+  .section4 div {
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .section4 div .protection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 200px;
+  }
+  .section4 div .protection h5 {
+    font-size: 2rem;
+  }
+  .section4 div .protection p {
+    font-size: 1rem;
+  }
+  .section4 .checklist {
+    padding-top: 10px;
+    width: 60%;
+    z-index: 2;
+  }
+  .section4 .checklist .safety {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .section4 .checklist .safety .checkbox {
+    width: 20px;
+  }
+  .section4 .checklist .safety div {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section4 .checklist .safety div h6 {
+    margin-top: 25px;
+    font-size: 1.7rem;
+  }
+  .section4 .checklist .safety div p {
+    font-size: 1rem;
+  }
+  .section4 .security-img {
+    display: block;
+    position: relative;
+    width: 80%;
+    z-index: 1;
+    right: -600px;
+    bottom: 600px;
+    opacity: 0.5;
+  }
+}
+/* Breakpoint styling ends */
 * {
   box-sizing: border-box;
 }

@@ -1,3 +1,16 @@
+/* Breakpoint styling begins here */
+
+@media (min-width: 570px) {
+    .chatbox {
+        width: 5%;
+
+        svg {
+            width: 100%;
+        }
+    }
+}
+
+
 @media (min-width: 800px) {
     nav {
         .bottom-nav {
@@ -335,6 +348,40 @@
         }
     }
 
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: "br firma";
+
+        .phone-img {
+            display: block;
+            @include flexCenter;
+        }
+
+        .roadmap {
+            @include flexCenter;
+            flex-direction: column;
+
+            div > h3 {
+                text-align: left;
+                color: $headingColor;
+                font-size: 2.5rem;
+                margin-left: 130px;
+                margin-bottom: 20px;
+            }
+            
+        }
+
+        .btn {
+            width: 100%;
+
+            button {
+                margin-left: 100px;
+                float: left;
+            }
+        }
+    }
+
     .section6 {
 
         .download {
@@ -390,3 +437,80 @@
         }
     }
 }
+
+
+@media (min-width: 1024px) {
+
+    .section4 {
+        font-family: "br firma";
+        overflow: hidden;
+        padding-top: 0px;
+        width: 100%;
+        height: 100vh;
+
+        div {
+            height: 40%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            
+            .protection {
+                @include flexCenter;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-right: 200px;
+
+                h5 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .checklist {
+            padding-top: 10px;
+            width: 60%;
+            z-index: 2;
+
+            .safety {
+                @include flexCenter;
+                flex-direction: row;
+
+                .checkbox {
+                    width: 20px;
+                }
+
+                div {
+                    width: 400px;
+                    @include flexCenter;
+                    flex-direction: column;
+
+                    h6 {
+                        margin-top: 25px;
+                        font-size: 1.7rem;
+                    }
+    
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        
+        }
+
+        .security-img {
+            display: block;
+            position: relative;
+            width: 80%;
+            z-index: 1;
+            right: -600px;
+            bottom: 600px;
+            opacity: 0.5;
+        }
+    }
+}
+/* Breakpoint styling ends */

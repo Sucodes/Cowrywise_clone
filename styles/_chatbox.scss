@@ -1,3 +1,5 @@
+/* ChatBox styling begins here */
+
 .chatbox {
     width: 10%;
     background-color: blue;
@@ -15,13 +17,4 @@
         fill: #fff;
     }
 }
-
-@media (min-width: 570px) {
-    .chatbox {
-        width: 5%;
-
-        svg {
-            width: 100%;
-        }
-    }
-}
+/* ChatBox styling ends */

@@ -1,3 +1,5 @@
+/* Section 3 styling begins here */
+
 .section3 {
     width: 100%;
     padding-bottom: 100px;
@@ -94,39 +96,4 @@
         }
     }
 }
-
-@media (min-width: 800px) {
-    .section3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        font-family: "br firma";
-
-        .phone-img {
-            display: block;
-            @include flexCenter;
-        }
-
-        .roadmap {
-            @include flexCenter;
-            flex-direction: column;
-
-            div > h3 {
-                text-align: left;
-                color: $headingColor;
-                font-size: 2.5rem;
-                margin-left: 130px;
-                margin-bottom: 20px;
-            }
-            
-        }
-
-        .btn {
-            width: 100%;
-
-            button {
-                margin-left: 100px;
-                float: left;
-            }
-        }
-    }
-}
+/* Section 3 styling ends */
