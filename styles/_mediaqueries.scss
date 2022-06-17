@@ -415,16 +415,17 @@
                 width: 50%;
 
                 form {
+                    width: 50%;
                     @include flexCenter;
                     align-items: flex-start;
 
                     input {
-                        width: 450px;
+                        width: 40%;
                         position: absolute;
                     }
 
                     button {
-                        right: -295px;
+                        right: -60%;
                         bottom: 10px;
                         position: relative;
                     }
@@ -479,23 +480,27 @@
             .safety {
                 @include flexCenter;
                 flex-direction: row;
+                height: 100%;
 
                 .checkbox {
                     width: 20px;
+                    margin-bottom: 100px;
                 }
 
                 div {
+                    padding-top: 20px;
                     width: 400px;
                     @include flexCenter;
                     flex-direction: column;
 
                     h6 {
+                        width: 100%;
                         margin-top: 25px;
                         font-size: 1.7rem;
                     }
     
                     p {
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                 }
             }

@@ -1608,11 +1608,14 @@ nav .bottom-nav .menu-icon div {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 100%;
   }
   .section4 .checklist .safety .checkbox {
     width: 20px;
+    margin-bottom: 100px;
   }
   .section4 .checklist .safety div {
+    padding-top: 20px;
     width: 400px;
     display: flex;
     justify-content: center;
@@ -1620,11 +1623,12 @@ nav .bottom-nav .menu-icon div {
     flex-direction: column;
   }
   .section4 .checklist .safety div h6 {
+    width: 100%;
     margin-top: 25px;
     font-size: 1.7rem;
   }
   .section4 .checklist .safety div p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .section4 .security-img {
     display: block;
