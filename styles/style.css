@@ -26,10 +26,11 @@ nav .top-nav {
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 12px;
 }
 nav .top-nav a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 600;
   color: white;
   background-color: #40b96e;
@@ -42,7 +43,6 @@ nav .top-nav img {
 }
 nav .bottom-nav {
   background-color: #fff;
-  font-size: large;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,12 +131,10 @@ nav .bottom-nav #navbar .nav-buttons {
 }
 nav .bottom-nav #navbar .nav-buttons .log-in a {
   text-decoration: none;
-  font-size: large;
   color: #0066f5;
   margin-right: 15px;
 }
 nav .bottom-nav #navbar .nav-buttons button {
-  font-size: large;
   background-color: #0066f5;
   padding: 20px 20px;
   border-radius: 10px;
@@ -198,7 +196,6 @@ nav .bottom-nav .menu-icon div {
   width: 300px;
 }
 #home-section .home-right .text form button {
-  font-size: large;
   background-color: #0066f5;
   padding: 20px 20px;
   border-radius: 10px;
@@ -306,7 +303,7 @@ nav .bottom-nav .menu-icon div {
 }
 #section2 .left .savings .text h6 {
   margin: 0px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgba(2, 43, 105, 0.6);
   margin-bottom: 20px;
 }
@@ -314,19 +311,20 @@ nav .bottom-nav .menu-icon div {
   color: #022b69;
   margin: 0px;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #section2 .left .savings .text p {
   margin-bottom: 30px;
   color: rgba(2, 43, 105, 0.6);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 #section2 .left .savings .text a {
   text-decoration: none;
-  color: blue;
+  color: #0066f5;
+  font-size: 0.7rem;
 }
 #section2 .left .savings .text a img {
-  width: 15px;
+  width: 10px;
 }
 #section2 .left .savings .img-div {
   cursor: pointer;
@@ -364,7 +362,7 @@ nav .bottom-nav .menu-icon div {
 }
 #section2 .left .mutual-funds .text h6 {
   margin: 0px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgba(2, 43, 105, 0.6);
   margin-bottom: 20px;
 }
@@ -372,19 +370,20 @@ nav .bottom-nav .menu-icon div {
   color: #022b69;
   margin: 0px;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #section2 .left .mutual-funds .text p {
   margin-bottom: 30px;
   color: rgba(2, 43, 105, 0.6);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 #section2 .left .mutual-funds .text a {
   text-decoration: none;
-  color: blue;
+  color: #0066f5;
+  font-size: 0.7rem;
 }
 #section2 .left .mutual-funds .text a img {
-  width: 15px;
+  width: 10px;
 }
 #section2 .left .stash {
   border: none;
@@ -433,7 +432,7 @@ nav .bottom-nav .menu-icon div {
 }
 #section2 .right .circles .text h6 {
   margin: 0px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgba(2, 43, 105, 0.6);
   margin-bottom: 20px;
 }
@@ -441,19 +440,20 @@ nav .bottom-nav .menu-icon div {
   color: #022b69;
   margin: 0px;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #section2 .right .circles .text p {
   margin-bottom: 30px;
   color: rgba(2, 43, 105, 0.6);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 #section2 .right .circles .text a {
   text-decoration: none;
-  color: blue;
+  color: #0066f5;
+  font-size: 0.7rem;
 }
 #section2 .right .circles .text a img {
-  width: 15px;
+  width: 10px;
 }
 #section2 .right .emergency-fund {
   border: none;
@@ -468,7 +468,7 @@ nav .bottom-nav .menu-icon div {
 }
 #section2 .right .emergency-fund .text h6 {
   margin: 0px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgba(2, 43, 105, 0.6);
   margin-bottom: 20px;
 }
@@ -476,19 +476,20 @@ nav .bottom-nav .menu-icon div {
   color: #022b69;
   margin: 0px;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #section2 .right .emergency-fund .text p {
   margin-bottom: 30px;
   color: rgba(2, 43, 105, 0.6);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 #section2 .right .emergency-fund .text a {
   text-decoration: none;
-  color: blue;
+  color: #0066f5;
+  font-size: 0.7rem;
 }
 #section2 .right .emergency-fund .text a img {
-  width: 15px;
+  width: 10px;
 }
 #section2 .right .stocks {
   border: none;
@@ -566,7 +567,7 @@ nav .bottom-nav .menu-icon div {
 }
 .section3 .roadmap .step .step1 h4 {
   margin-bottom: 0px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #022b69;
 }
 .section3 .roadmap .step .step1 p {
@@ -578,7 +579,7 @@ nav .bottom-nav .menu-icon div {
 }
 .section3 .roadmap .step .step2 h4 {
   margin-bottom: 0px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #022b69;
 }
 .section3 .roadmap .step .step2 p {
@@ -590,7 +591,7 @@ nav .bottom-nav .menu-icon div {
 }
 .section3 .roadmap .step .step3 h4 {
   margin-bottom: 0px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #022b69;
 }
 .section3 .roadmap .step .step3 p {
@@ -601,7 +602,6 @@ nav .bottom-nav .menu-icon div {
   margin-left: 50px;
 }
 .section3 .roadmap .btn button {
-  font-size: large;
   background-color: #0066f5;
   padding: 20px 20px;
   border-radius: 10px;
@@ -681,9 +681,10 @@ nav .bottom-nav .menu-icon div {
 .section5 div .heading h6 {
   color: #022b69;
   font-size: 1rem;
+  margin-bottom: 20px;
 }
 .section5 div .perks {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .section5 div .perks .perk {
@@ -939,7 +940,7 @@ nav .bottom-nav .menu-icon div {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgb(170, 165, 165);
-  padding: 15px 10px;
+  padding: 20px;
   opacity: 0.5;
 }
 .section6 .sign-up div form input ::-moz-placeholder {
@@ -1166,10 +1167,10 @@ nav .bottom-nav .menu-icon div {
     left: 250px;
     top: -150px;
     padding: 30px;
+    font-size: 15px;
     color: rgba(2, 43, 105, 0.6);
   }
   #home-section .home-left .testimonial div {
-    padding-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1183,14 +1184,14 @@ nav .bottom-nav .menu-icon div {
     margin-right: 20px;
   }
   #home-section .home-right .text h1 {
-    font-size: 7.3rem;
+    font-size: 5.5rem;
     font-weight: 600;
     color: #022b69;
     margin-bottom: 0;
   }
   #home-section .home-right .text p {
     color: rgba(2, 43, 105, 0.6);
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   #home-section .home-right .text form {
     margin-top: 30px;
@@ -1199,11 +1200,10 @@ nav .bottom-nav .menu-icon div {
     font-size: larger;
     border: 1px solid rgba(2, 43, 105, 0.11);
     border-radius: 10px;
-    padding: 20px 20px;
+    padding: 15px 20px;
     width: 300px;
   }
   #home-section .home-right .text form button {
-    font-size: large;
     background-color: #0066f5;
     padding: 20px 20px;
     border-radius: 10px;
@@ -1247,11 +1247,11 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .left .text h2 {
     color: #022b69;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 0px;
   }
   #section2 .left .text p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: rgba(2, 43, 105, 0.6);
   }
   #section2 .left .savings {
@@ -1267,7 +1267,7 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .left .savings .text h6 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(2, 43, 105, 0.6);
     margin-bottom: 20px;
   }
@@ -1275,19 +1275,20 @@ nav .bottom-nav .menu-icon div {
     color: #022b69;
     margin: 0px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .left .savings .text p {
     margin-bottom: 30px;
     color: rgba(2, 43, 105, 0.6);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #section2 .left .savings .text a {
     text-decoration: none;
-    color: blue;
+    color: #0066f5;
+    font-size: 0.7rem;
   }
   #section2 .left .savings .text a img {
-    width: 15px;
+    width: 10px;
   }
   #section2 .left .savings .img-div {
     cursor: pointer;
@@ -1325,7 +1326,7 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .left .mutual-funds .text h6 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(2, 43, 105, 0.6);
     margin-bottom: 20px;
   }
@@ -1333,19 +1334,20 @@ nav .bottom-nav .menu-icon div {
     color: #022b69;
     margin: 0px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .left .mutual-funds .text p {
     margin-bottom: 30px;
     color: rgba(2, 43, 105, 0.6);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #section2 .left .mutual-funds .text a {
     text-decoration: none;
-    color: blue;
+    color: #0066f5;
+    font-size: 0.7rem;
   }
   #section2 .left .mutual-funds .text a img {
-    width: 15px;
+    width: 10px;
   }
   #section2 .left .stash {
     border: none;
@@ -1361,25 +1363,26 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .left .stash .text h6 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
   }
   #section2 .left .stash .text h4 {
     margin: 0px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .left .stash .text p {
     color: hsla(0deg, 0%, 100%, 0.6);
     margin-bottom: 30px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #section2 .left .stash .text a {
     text-decoration: none;
     color: #fff;
+    font-size: 0.7rem;
   }
   #section2 .left .stash .text a img {
-    width: 15px;
+    width: 10px;
   }
   #section2 .right .circles {
     border: none;
@@ -1394,7 +1397,7 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .right .circles .text h6 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(2, 43, 105, 0.6);
     margin-bottom: 20px;
   }
@@ -1402,19 +1405,20 @@ nav .bottom-nav .menu-icon div {
     color: #022b69;
     margin: 0px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .right .circles .text p {
     margin-bottom: 30px;
     color: rgba(2, 43, 105, 0.6);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #section2 .right .circles .text a {
     text-decoration: none;
-    color: blue;
+    color: #0066f5;
+    font-size: 0.7rem;
   }
   #section2 .right .circles .text a img {
-    width: 15px;
+    width: 10px;
   }
   #section2 .right .emergency-fund {
     border: none;
@@ -1429,7 +1433,7 @@ nav .bottom-nav .menu-icon div {
   }
   #section2 .right .emergency-fund .text h6 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(2, 43, 105, 0.6);
     margin-bottom: 20px;
   }
@@ -1437,19 +1441,20 @@ nav .bottom-nav .menu-icon div {
     color: #022b69;
     margin: 0px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .right .emergency-fund .text p {
     margin-bottom: 30px;
     color: rgba(2, 43, 105, 0.6);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #section2 .right .emergency-fund .text a {
     text-decoration: none;
-    color: blue;
+    color: #0066f5;
+    font-size: 0.7rem;
   }
   #section2 .right .emergency-fund .text a img {
-    width: 15px;
+    width: 10px;
   }
   #section2 .right .stocks {
     border: none;
@@ -1463,21 +1468,22 @@ nav .bottom-nav .menu-icon div {
   #section2 .right .stocks .text h6 {
     margin: 0;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgba(2, 43, 105, 0.6);
   }
   #section2 .right .stocks .text h4 {
     margin: 0px;
     margin-bottom: 20px;
     color: #022b69;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #section2 .right .stocks .text a {
     text-decoration: none;
     color: blue;
+    font-size: 0.7rem;
   }
   #section2 .right .stocks .text a img {
-    width: 15px;
+    width: 10px;
   }
 
   .section3 {
@@ -1499,9 +1505,12 @@ nav .bottom-nav .menu-icon div {
   .section3 .roadmap div > h3 {
     text-align: left;
     color: #022b69;
-    font-size: 2.5rem;
-    margin-left: 130px;
+    font-size: 2.3rem;
+    margin-left: 100px;
     margin-bottom: 20px;
+  }
+  .section3 .roadmap .step > p {
+    font-size: 1.1rem;
   }
   .section3 .btn {
     width: 100%;
@@ -1548,11 +1557,11 @@ nav .bottom-nav .menu-icon div {
     align-items: flex-start;
   }
   .section6 .sign-up div form input {
-    width: 300px;
+    width: 450px;
     position: absolute;
   }
   .section6 .sign-up div form button {
-    right: -200px;
+    right: -295px;
     bottom: 10px;
     position: relative;
   }
@@ -1567,7 +1576,7 @@ nav .bottom-nav .menu-icon div {
     overflow: hidden;
     padding-top: 0px;
     width: 100%;
-    height: 100vh;
+    height: 1200px;
   }
   .section4 div {
     height: 40%;
@@ -1582,13 +1591,12 @@ nav .bottom-nav .menu-icon div {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-right: 200px;
   }
   .section4 div .protection h5 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .section4 div .protection p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .section4 .checklist {
     padding-top: 10px;
@@ -1616,16 +1624,20 @@ nav .bottom-nav .menu-icon div {
     font-size: 1.7rem;
   }
   .section4 .checklist .safety div p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .section4 .security-img {
     display: block;
     position: relative;
     width: 80%;
     z-index: 1;
-    right: -600px;
-    bottom: 600px;
+    right: -700px;
+    bottom: 800px;
     opacity: 0.5;
+  }
+
+  #home-section .home-right .text h1 {
+    font-size: 3rem;
   }
 }
 /* Breakpoint styling ends */

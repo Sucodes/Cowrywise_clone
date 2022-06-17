@@ -7,10 +7,11 @@ nav {
         background-color: $backgroundColor;
         @include flexCenter;
         color: white;
+        font-size: 12px;
 
         a {
             text-decoration: none;
-            font-size: 12px;
+            font-size: 8px;
             font-weight: 600;
             color: white;
             background-color: #40b96e;
@@ -26,7 +27,6 @@ nav {
 
     .bottom-nav {
         background-color: #fff;
-        font-size: large;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -127,7 +127,6 @@ nav {
                
                 .log-in a {
                     text-decoration: none;
-                    font-size: large;
                     color: $backgroundColor;
                     margin-right: 15px;
                 }
