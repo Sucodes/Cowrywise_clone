@@ -2,7 +2,6 @@
 
 .section6 {
     width: 100%;
-    font-family: "br firma";
     padding: 0px 20px;
     margin-bottom: 50px;
 
@@ -175,7 +174,6 @@
     }
 
     .sign-up {
-        font-family: "br firma";
         border: 1px solid;
         border-radius: 10px;
         background-color: $backgroundColor;
@@ -215,7 +213,6 @@
                     opacity: 0.5;
 
                     ::placeholder {
-                        font-family: "br firma";
                         color: #fff;
                     }
                 }

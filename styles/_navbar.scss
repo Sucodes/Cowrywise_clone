@@ -1,22 +1,21 @@
 /* Navigation bar styling begins here */
 
 nav {
-    font-family: "br firma";
 
     .top-nav {
+        height: 42px;
         background-color: $backgroundColor;
         @include flexCenter;
         color: white;
 
         a {
             text-decoration: none;
-            font-family: "br firma";
             font-size: 12px;
             font-weight: 600;
             color: white;
             background-color: #40b96e;
             border-radius: 5px;
-            padding: 4px 5px;
+            padding: 4px;
             margin-right: 10px;
         }
 
@@ -27,7 +26,6 @@ nav {
 
     .bottom-nav {
         background-color: #fff;
-        font-family: "br firma";
         font-size: large;
         display: flex;
         justify-content: space-between;
@@ -43,7 +41,6 @@ nav {
         }
 
         #navbar {
-            font-family: "br firma";
             width: 90%;
             @include flexCenter;
             justify-content: space-between;
@@ -125,7 +122,6 @@ nav {
 
             .nav-buttons {
                 display: none;
-                font-family: "br firma";
                 color: $backgroundColor;
                 margin-right: 30px;
                
@@ -138,6 +134,8 @@ nav {
     
                 button {
                     @include button;
+                    border-radius: 5px;
+                    padding: 15px 20px;
                 }
             }
         }
