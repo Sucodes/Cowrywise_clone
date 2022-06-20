@@ -34,6 +34,8 @@
             background-color: #f4f6ff;
             margin-bottom: 80px;
             @include text;
+            height: 700px;
+            overflow: hidden;
 
             .img-div {
                 cursor: pointer;
@@ -75,6 +77,8 @@
             margin-bottom: 80px;
             @include text;
             @extend %hoverEffect;
+            height: 700px;
+            overflow: hidden;
         }
 
         .stash {
@@ -83,6 +87,8 @@
             background-color: $backgroundColor;
             margin-bottom: 80px;
             @extend %hoverEffect;
+            height: 700px;
+            overflow: hidden;
 
             .text {
                 color: #fff;
@@ -128,6 +134,8 @@
             margin-bottom: 80px;
             @include text;
             @extend %hoverEffect;
+            height: 700px;
+            overflow: hidden;
         }
 
         .emergency-fund {
@@ -137,6 +145,8 @@
             margin-bottom: 80px;
             @include text;
             @extend %hoverEffect;
+            height: 700px;
+            overflow: hidden;
         }
 
         .stocks {
@@ -144,6 +154,8 @@
             border-radius: 30px;
             background-color: #f5f6fa;
             @extend %hoverEffect;
+            height: 700px;
+            overflow: hidden;
 
             .text {
                 padding: 48px;

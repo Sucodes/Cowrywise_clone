@@ -140,6 +140,7 @@ nav .bottom-nav #navbar .nav-buttons button {
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+  cursor: pointer;
   border-radius: 5px;
   padding: 15px 20px;
 }
@@ -162,12 +163,10 @@ nav .bottom-nav .menu-icon div {
 /* Navigation styling ends here*/
 /* Header styling (excluding the navigation section) begins here */
 #home-section {
+  margin: 0px 5px;
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  grid-row-gap: 20px;
 }
 #home-section .home-right {
   grid-row: 1/2;
@@ -201,8 +200,9 @@ nav .bottom-nav .menu-icon div {
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+  cursor: pointer;
   color: #fff;
-  margin-left: 10px;
+  margin-top: 15px;
   padding: 15px 20px;
   font-weight: 600;
 }
@@ -224,6 +224,7 @@ nav .bottom-nav .menu-icon div {
   position: absolute;
   display: flex;
   align-items: flex-end;
+  opacity: 0.5;
 }
 #home-section .home-left .testimonial-section img {
   width: 50px;
@@ -295,6 +296,8 @@ nav .bottom-nav .menu-icon div {
   border-radius: 30px;
   background-color: #f4f6ff;
   margin-bottom: 80px;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .left .savings .text {
   padding: 48px;
@@ -354,6 +357,8 @@ nav .bottom-nav .menu-icon div {
   border-radius: 30px;
   background-color: #e1f6ff;
   margin-bottom: 80px;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .left .mutual-funds .text {
   padding: 48px;
@@ -390,6 +395,8 @@ nav .bottom-nav .menu-icon div {
   border-radius: 30px;
   background-color: #0066f5;
   margin-bottom: 80px;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .left .stash .text {
   color: #fff;
@@ -424,6 +431,8 @@ nav .bottom-nav .menu-icon div {
   border-radius: 30px;
   background-color: #fff6ee;
   margin-bottom: 80px;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .right .circles .text {
   padding: 48px;
@@ -460,6 +469,8 @@ nav .bottom-nav .menu-icon div {
   border-radius: 30px;
   background-color: #fdf3f6;
   margin-bottom: 80px;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .right .emergency-fund .text {
   padding: 48px;
@@ -495,6 +506,8 @@ nav .bottom-nav .menu-icon div {
   border: none;
   border-radius: 30px;
   background-color: #f5f6fa;
+  height: 700px;
+  overflow: hidden;
 }
 #section2 .right .stocks .text {
   padding: 48px;
@@ -607,6 +620,7 @@ nav .bottom-nav .menu-icon div {
   border-radius: 10px;
   border: none;
   box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+  cursor: pointer;
 }
 .section3 .roadmap .btn button a {
   color: #fff;
@@ -764,7 +778,7 @@ nav .bottom-nav .menu-icon div {
 .section6 {
   width: 100%;
   padding: 0px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .section6 .download {
   display: grid;
@@ -796,8 +810,11 @@ nav .bottom-nav .menu-icon div {
 .section6 .download .play-store .review-stars .left p {
   margin: 0px;
   font-size: 2.3rem;
+  color: #022b69;
+  margin-right: 20px;
 }
-.section6 .download .play-store .review-stars .left p sub {
+.section6 .download .play-store .review-stars .left p span {
+  font-size: 1rem;
   color: rgba(2, 43, 105, 0.6);
 }
 .section6 .download .play-store .review-stars .left img {
@@ -811,11 +828,14 @@ nav .bottom-nav .menu-icon div {
   border-radius: 10px;
   font-size: 10px;
   display: flex;
+  cursor: pointer;
 }
 .section6 .download .play-store .review-stars button a {
   color: #fff;
   text-decoration: none;
   padding: 0px;
+  font-size: 8px;
+  text-align: left;
 }
 .section6 .download .play-store .review-stars button svg {
   margin-right: 10px;
@@ -823,17 +843,22 @@ nav .bottom-nav .menu-icon div {
   width: 20px;
 }
 .section6 .download .play-store .review h6 {
+  color: #022b69;
   margin-top: 20px;
   font-size: 1.5rem;
   margin-bottom: 0px;
 }
 .section6 .download .play-store .review p {
   color: rgba(2, 43, 105, 0.6);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin-bottom: 50px;
 }
 .section6 .download .play-store .review a {
-  color: blue;
+  color: #0066f5;
   text-decoration: none;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 .section6 .download .play-store .review a img {
   width: 10px;
@@ -861,9 +886,12 @@ nav .bottom-nav .menu-icon div {
 .section6 .download .apple-store .review-stars .left p {
   margin: 0px;
   font-size: 2.3rem;
+  color: #022b69;
+  margin-right: 20px;
 }
-.section6 .download .apple-store .review-stars .left p sub {
+.section6 .download .apple-store .review-stars .left p span {
   color: rgba(2, 43, 105, 0.6);
+  font-size: 1rem;
 }
 .section6 .download .apple-store .review-stars .left img {
   width: 150px;
@@ -876,11 +904,14 @@ nav .bottom-nav .menu-icon div {
   border-radius: 10px;
   font-size: 10px;
   display: flex;
+  cursor: pointer;
 }
 .section6 .download .apple-store .review-stars button a {
   color: #fff;
   text-decoration: none;
   padding: 0px;
+  font-size: 8px;
+  text-align: left;
 }
 .section6 .download .apple-store .review-stars button svg {
   margin-right: 10px;
@@ -891,14 +922,19 @@ nav .bottom-nav .menu-icon div {
   margin-top: 20px;
   font-size: 1.5rem;
   margin-bottom: 0px;
+  color: #022b69;
 }
 .section6 .download .apple-store .review p {
   color: rgba(2, 43, 105, 0.6);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin-bottom: 50px;
 }
 .section6 .download .apple-store .review a {
-  color: blue;
+  color: #0066f5;
   text-decoration: none;
   font-size: 0.7rem;
+  font-weight: 600;
 }
 .section6 .download .apple-store .review a img {
   width: 10px;
@@ -936,21 +972,26 @@ nav .bottom-nav .menu-icon div {
 }
 .section6 .sign-up div form input {
   width: 100%;
-  color: transparent;
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgb(170, 165, 165);
   padding: 20px;
-  opacity: 0.5;
+  opacity: 0.3;
 }
-.section6 .sign-up div form input ::-moz-placeholder {
+.section6 .sign-up div form ::-moz-placeholder {
   color: #fff;
+  font-size: 17px;
+  font-family: "BRFirma";
 }
-.section6 .sign-up div form input :-ms-input-placeholder {
+.section6 .sign-up div form :-ms-input-placeholder {
   color: #fff;
+  font-size: 17px;
+  font-family: "BRFirma";
 }
-.section6 .sign-up div form input ::placeholder {
+.section6 .sign-up div form ::placeholder {
   color: #fff;
+  font-size: 17px;
+  font-family: "BRFirma";
 }
 .section6 .sign-up div form button {
   border: none;
@@ -959,11 +1000,18 @@ nav .bottom-nav .menu-icon div {
   padding: 15px 0;
   margin-top: 20px;
   width: 150px;
+  cursor: pointer;
 }
 .section6 .sign-up div form button a {
   text-decoration: none;
   color: #022b69;
   font-weight: 600;
+}
+.section6 .sign-up div form button:hover {
+  background-color: #022b69;
+}
+.section6 .sign-up div form button:hover a {
+  color: #fff;
 }
 .section6 .links {
   padding: 20px;
@@ -986,6 +1034,9 @@ nav .bottom-nav .menu-icon div {
   color: rgba(2, 43, 105, 0.6);
   cursor: pointer;
 }
+.section6 .links .grid ul a:hover, .section6 .links .grid li a:hover {
+  color: #0066f5;
+}
 .section6 .icons {
   margin: 20px 0px;
   display: flex;
@@ -995,13 +1046,16 @@ nav .bottom-nav .menu-icon div {
   justify-content: left;
 }
 .section6 .icons ul, .section6 .icons li {
-  padding-right: 30px;
+  padding-right: 15px;
   display: flex;
   list-style-type: none;
 }
 .section6 .icons ul svg, .section6 .icons li svg {
   fill: rgba(2, 43, 105, 0.6);
   width: 20px;
+}
+.section6 .icons ul svg:hover, .section6 .icons li svg:hover {
+  fill: #0066f5;
 }
 .section6 .address {
   display: flex;
@@ -1045,20 +1099,21 @@ nav .bottom-nav .menu-icon div {
   color: rgba(2, 43, 105, 0.6);
 }
 .section6 .footer {
-  font-size: 0.8rem;
-  line-height: 1.7;
+  font-size: 0.72rem;
+  line-height: 2;
   color: rgba(2, 43, 105, 0.48);
 }
 .section6 .footer a {
   text-decoration: none;
 }
 .section6 .footer a span {
-  color: blue;
+  color: #0066f5;
 }
 
 /* Section 6 styling ends  */
 /* ChatBox styling begins here */
 .chatbox {
+  z-index: 2;
   width: 10%;
   background-color: #0066f5;
   border-radius: 50%;
@@ -1071,6 +1126,7 @@ nav .bottom-nav .menu-icon div {
   position: fixed;
   bottom: 0;
   right: 0;
+  cursor: pointer;
 }
 .chatbox svg {
   width: 100%;
@@ -1119,15 +1175,13 @@ nav .bottom-nav .menu-icon div {
   }
 
   #home-section {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 80px;
     padding-top: 30px;
     margin-bottom: 250px;
   }
   #home-section .home-left {
-    grid-row: 1/2;
+    grid-row: 1;
   }
   #home-section .home-left .testimonial-section {
     background-color: rgb(255, 236, 219);
@@ -1137,6 +1191,7 @@ nav .bottom-nav .menu-icon div {
     position: absolute;
     display: flex;
     align-items: flex-end;
+    opacity: 0.5;
   }
   #home-section .home-left .testimonial-section img {
     -o-object-fit: cover;
@@ -1150,8 +1205,8 @@ nav .bottom-nav .menu-icon div {
     cursor: pointer;
   }
   #home-section .home-left img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 500px;
     height: 700px;
     z-index: 2;
@@ -1177,14 +1232,14 @@ nav .bottom-nav .menu-icon div {
     justify-content: space-between;
   }
   #home-section .home-right {
-    grid-column: 3;
+    grid-column: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 20px;
   }
   #home-section .home-right .text h1 {
-    font-size: 5.5rem;
+    font-size: 5.7rem;
     font-weight: 600;
     color: #022b69;
     margin-bottom: 0;
@@ -1209,6 +1264,7 @@ nav .bottom-nav .menu-icon div {
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 6px 1px rgba(0, 102, 245, 0.18);
+    cursor: pointer;
     color: #fff;
     margin-left: 10px;
     padding: 15px 20px;
@@ -1551,17 +1607,18 @@ nav .bottom-nav .menu-icon div {
     width: 50%;
   }
   .section6 .sign-up div form {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: flex-start;
   }
   .section6 .sign-up div form input {
-    width: 450px;
+    width: 40%;
     position: absolute;
   }
   .section6 .sign-up div form button {
-    right: -295px;
+    right: -60%;
     bottom: 10px;
     position: relative;
   }

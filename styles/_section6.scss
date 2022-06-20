@@ -3,7 +3,7 @@
 .section6 {
     width: 100%;
     padding: 0px 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
     .download {
         display: grid;
@@ -33,8 +33,11 @@
                     p {
                         margin: 0px;
                         font-size: 2.3rem;
+                        color: $headingColor;
+                        margin-right: 20px;
 
-                        sub {
+                        span {
+                            font-size: 1rem;
                             color: $textColor;
                         }
                     }
@@ -52,11 +55,14 @@
                     border-radius: 10px;
                     font-size: 10px;
                     display: flex;
+                    cursor: pointer;
 
                     a {
                         color: #fff;
                         text-decoration: none;
                         padding: 0px;
+                        font-size: 8px;
+                        text-align: left;
                     }
 
                     svg {
@@ -70,6 +76,7 @@
             .review {
 
                 h6 {
+                    color: $headingColor;
                     margin-top: 20px;
                     font-size: 1.5rem;
                     margin-bottom: 0px;
@@ -77,13 +84,16 @@
                 
                 p {
                     color: $textColor;
-
+                    font-size: 0.8rem;
+                    line-height: 1.8;
+                    margin-bottom: 50px;
                 }
 
                 a {
-                    color: blue;
+                    color: $backgroundColor;
                     text-decoration: none;
                     font-size: 0.7rem;
+                    font-weight: 600;
 
                     img {
                         width: 10px;
@@ -113,9 +123,12 @@
                     p {
                         margin: 0px;
                         font-size: 2.3rem;
+                        color: $headingColor;
+                        margin-right: 20px;
 
-                        sub {
+                        span {
                             color: $textColor;
+                            font-size: 1rem;
                         }
                     }
 
@@ -132,11 +145,14 @@
                     border-radius: 10px;
                     font-size: 10px;
                     display: flex;
+                    cursor: pointer;
 
                     a {
                         color: #fff;
                         text-decoration: none;
                         padding: 0px;
+                        font-size: 8px;
+                        text-align: left;
                     }
                     
                     svg {
@@ -153,17 +169,21 @@
                     margin-top: 20px;
                     font-size: 1.5rem;
                     margin-bottom: 0px;
+                    color: $headingColor;
                 }
                 
                 p {
                     color: $textColor;
-
+                    font-size: 0.8rem;
+                    line-height: 1.8;
+                    margin-bottom: 50px;
                 }
 
                 a {
-                    color: blue;
+                    color: $backgroundColor;
                     text-decoration: none;
                     font-size: 0.7rem;
+                    font-weight: 600;
 
                     img {
                         width: 10px;
@@ -199,22 +219,24 @@
 
         div {
             width: 100%;
+
             form {
                 display: flex;
                 flex-direction: column;
 
                 input {
                     width: 100%;
-                    color: transparent;
                     border: none;
                     border-radius: 5px;
                     box-shadow: 2px 2px 5px rgb(170, 165, 165);
                     padding: 20px;
-                    opacity: 0.5;
+                    opacity: 0.3;
+                }
 
-                    ::placeholder {
-                        color: #fff;
-                    }
+                ::placeholder {
+                    color: #fff;
+                    font-size: 17px;
+                    font-family: "BRFirma";
                 }
 
                 button {
@@ -224,11 +246,20 @@
                     padding: 15px 0;
                     margin-top: 20px;
                     width: 150px;
+                    cursor: pointer;
 
                     a {
                         text-decoration: none;
                         color: $headingColor;
                         font-weight: 600;
+                    }
+                    
+                    &:hover {
+                        background-color: $headingColor;
+
+                        a {
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -258,6 +289,10 @@
                     text-decoration: none;
                     color: $textColor;
                     cursor: pointer;
+
+                    &:hover {
+                        color: $backgroundColor;
+                    }
                 }
             }
         }
@@ -270,13 +305,17 @@
         justify-content: left;
 
         ul, li {
-            padding-right: 30px;
+            padding-right: 15px;
             display: flex;
             list-style-type: none;
 
             svg {
                 fill: $textColor;
                 width: 20px;
+
+                &:hover {
+                    fill: $backgroundColor;
+                }
             }
         }
     }
@@ -328,15 +367,15 @@
     }
 
     .footer {
-        font-size: 0.8rem;
-        line-height: 1.7;
+        font-size: 0.72rem;
+        line-height: 2;
         color: rgba(2,43,105,.48);
         
         a {
             text-decoration: none;
 
             span {
-                color: blue;
+                color: $backgroundColor;
             }
         }
     }

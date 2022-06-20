@@ -1,6 +1,7 @@
 /* ChatBox styling begins here */
 
 .chatbox {
+    z-index: 2;
     width: 10%;
     background-color: $backgroundColor;
     border-radius: 50%;
@@ -11,6 +12,7 @@
     position: fixed;
     bottom: 0;
     right: 0;
+    cursor: pointer;
 
     svg {
         width: 100%;
