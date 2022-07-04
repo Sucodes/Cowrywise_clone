@@ -170,6 +170,7 @@ nav .bottom-nav .menu-icon div {
 }
 #home-section .home-right {
   grid-row: 1/2;
+  padding-left: 15px;
 }
 #home-section .home-right .text h1 {
   font-size: 3rem;
@@ -184,6 +185,7 @@ nav .bottom-nav .menu-icon div {
   font-size: 20px;
 }
 #home-section .home-right .text form {
+  display: none;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -205,10 +207,35 @@ nav .bottom-nav .menu-icon div {
   margin-top: 15px;
   padding: 15px 20px;
   font-weight: 600;
+  margin-left: 15px;
 }
 #home-section .home-right .text form button a {
   color: #fff;
   text-decoration: none;
+}
+#home-section .home-right .text .download-btn {
+  display: flex;
+}
+#home-section .home-right .text .download-btn button {
+  background-color: #022b69;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  cursor: pointer;
+}
+#home-section .home-right .text .download-btn button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px;
+  font-size: 8px;
+  text-align: left;
+}
+#home-section .home-right .text .download-btn button svg {
+  margin-right: 10px;
+  fill: #fff;
+  width: 20px;
 }
 #home-section .home-right .licence {
   display: none;
@@ -1142,6 +1169,13 @@ nav .bottom-nav .menu-icon div {
   .chatbox svg {
     width: 100%;
   }
+
+  #home-section .home-right .text form {
+    display: block;
+  }
+  #home-section .home-right .text .download-btn {
+    display: none;
+  }
 }
 @media (min-width: 800px) {
   nav .bottom-nav .logo {
@@ -1179,6 +1213,7 @@ nav .bottom-nav .menu-icon div {
     grid-column-gap: 80px;
     padding-top: 30px;
     margin-bottom: 250px;
+    padding-left: 0px;
   }
   #home-section .home-left {
     grid-row: 1;
@@ -1273,6 +1308,9 @@ nav .bottom-nav .menu-icon div {
   #home-section .home-right .text form button a {
     color: #fff;
     text-decoration: none;
+  }
+  #home-section .home-right .text .download-btn {
+    display: none;
   }
   #home-section .home-right .licence {
     display: flex;
@@ -1614,11 +1652,11 @@ nav .bottom-nav .menu-icon div {
     align-items: flex-start;
   }
   .section6 .sign-up div form input {
-    width: 40%;
+    max-width: 36%;
     position: absolute;
   }
   .section6 .sign-up div form button {
-    right: -60%;
+    left: 100%;
     bottom: 10px;
     position: relative;
   }
@@ -1629,14 +1667,18 @@ nav .bottom-nav .menu-icon div {
   }
 }
 @media (min-width: 1024px) {
+  #home-section .home-right .text .download-btn {
+    display: none;
+  }
+
   .section4 {
     overflow: hidden;
-    padding-top: 0px;
+    padding-top: 30px;
     width: 100%;
-    height: 1200px;
+    height: 900px;
   }
   .section4 div {
-    height: 40%;
+    height: 30%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -1656,7 +1698,7 @@ nav .bottom-nav .menu-icon div {
     font-size: 1.3rem;
   }
   .section4 .checklist {
-    padding-top: 10px;
+    padding-top: 20px;
     width: 60%;
     z-index: 2;
   }
@@ -1693,7 +1735,7 @@ nav .bottom-nav .menu-icon div {
     width: 80%;
     z-index: 1;
     right: -700px;
-    bottom: 800px;
+    bottom: 530px;
     opacity: 0.5;
   }
 }

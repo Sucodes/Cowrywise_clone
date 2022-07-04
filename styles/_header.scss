@@ -8,6 +8,7 @@
 
     .home-right {
         grid-row: 1 / 2;
+        padding-left: 15px;
     
         .text {
             h1 {
@@ -25,6 +26,7 @@
             }
     
             form {
+                display: none;
                 margin-top: 30px;
                 margin-bottom: 30px;
 
@@ -42,7 +44,36 @@
                     margin-top: 15px;
                     padding: 15px 20px;
                     font-weight: 600;
+                    margin-left: 15px;
                 }
+            }
+
+            .download-btn {
+                display: flex;
+
+                button {
+                    background-color: $headingColor;
+                    padding: 10px 10px;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 10px;
+                    display: flex;
+                    cursor: pointer;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 0px;
+                        font-size: 8px;
+                        text-align: left;
+                    }
+
+                    svg {
+                        margin-right: 10px;
+                        fill: #fff;
+                        width: 20px;
+                    }
+                } 
             }
         }
 

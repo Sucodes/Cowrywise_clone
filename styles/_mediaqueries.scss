@@ -8,6 +8,20 @@
             width: 100%;
         }
     }
+
+    #home-section {
+        .home-right {
+            .text {
+                form {
+                    display: block;
+                }
+
+                .download-btn {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 
@@ -56,6 +70,7 @@
         grid-column-gap: 80px;
         padding-top: 30px;
         margin-bottom: 250px;
+        padding-left: 0px;
 
         .home-left {
             grid-row: 1;
@@ -149,6 +164,10 @@
                         padding: 15px 20px;
                         font-weight: 600;
                     }
+                }
+
+                .download-btn {
+                    display: none;
                 }
             }
     
@@ -419,12 +438,12 @@
                     align-items: flex-start;
 
                     input {
-                        width: 40%;
+                        max-width: 36%;
                         position: absolute;
                     }
 
                     button {
-                        right: -60%;
+                        left: 100%;
                         bottom: 10px;
                         position: relative;
                     }
@@ -443,14 +462,24 @@
 
 @media (min-width: 1024px) {
 
+    #home-section {
+        .home-right {
+            .text {
+                .download-btn {
+                    display: none;
+                }
+            }
+        }
+    }
+
     .section4 {
         overflow: hidden;
-        padding-top: 0px;
+        padding-top: 30px;
         width: 100%;
-        height: 1200px;
+        height: 900px;
 
         div {
-            height: 40%;
+            height: 30%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
@@ -472,7 +501,7 @@
         }
 
         .checklist {
-            padding-top: 10px;
+            padding-top: 20px;
             width: 60%;
             z-index: 2;
 
@@ -512,7 +541,7 @@
             width: 80%;
             z-index: 1;
             right: -700px;
-            bottom: 800px;
+            bottom: 530px;
             opacity: 0.5;
         }
     }
