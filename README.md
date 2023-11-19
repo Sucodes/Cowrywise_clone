@@ -4,4 +4,4 @@
 
 ## Link Cowrywise website
 
-[CowryWise](https://cowrywise.com)
+[CowryWise](https://sucodes.github.io/Cowrywise_clone/)
